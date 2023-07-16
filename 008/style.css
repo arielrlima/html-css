@@ -71,18 +71,21 @@ section{
     font-size: 25px;
     font-family: 'idroid';
     color: green;
+    margin-top: 0px;
 }
 
 #versao {
     background-color: rgb(133, 220, 160);
     font-family: 'idroid';
     color: green;
+    margin-top: 20px;
 }
 
 #mascote {
     background-color: rgb(133, 220, 160);
     font-family: 'idroid';
     color: green;
+    margin-top: 20px;
 }
 
 .test1 {
