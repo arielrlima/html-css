@@ -4,3 +4,34 @@
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Montserrat', sans-serif;
 }
+
+html {
+  font-family:var(--font2);
+}
+
+body {
+  margin: 0;
+  background-color: #4A8F84;
+}
+
+header {
+  background: #800080;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: #08C4A8;
+}
+
+section {
+    display: flex;
+}
