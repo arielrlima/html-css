@@ -3,7 +3,6 @@
 :root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Montserrat', sans-serif;
-<<<<<<< HEAD
 }
 
 html {
@@ -35,6 +34,4 @@ article {
 
 section {
     display: flex;
-=======
->>>>>>> parent of 996a99e (.)
 }
