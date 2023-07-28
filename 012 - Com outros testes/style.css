@@ -11,11 +11,6 @@ html body {
     background-attachment: fixed;
 }
 
-.main {
-    position: relative;
-    height: 100vh;
-}
-
 .smartphone {
     position: absolute;
     top: 50%;
@@ -25,11 +20,3 @@ html body {
     width: 330px;
     background-image: url(images/Smartphone-PNG-Image-Transparent.png);
     }
-
-.navvert {
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-    width: 50px;
-    margin-right: 5px;
-}
