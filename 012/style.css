@@ -26,14 +26,6 @@ html body {
     background-image: url(images/Smartphone-PNG-Image-Transparent.png);
     }
 
-.navvert {
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-    width: 50px;
-    margin-right: 5px;
-}
-
 #tela {
     position: relative;
     top: 0px;
@@ -41,3 +33,14 @@ html body {
     height: 500px;
     width: 330px;
 }
+
+.navvert img{
+    width: 50px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.navvert img:hover{
+
+}
+
