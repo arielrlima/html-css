@@ -12,11 +12,18 @@ html body {
 }
 
 .smartphone {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: fixed;
     height: 500px;
     width: 330px;
-    background-image: url(images/Smartphone-PNG-Image-Transparent.png);
+    background: url(images/Smartphone-PNG-Image-Transparent.png) no-repeat;
+    background-attachment: fixed;
     }
+
+.textophone {
+    margin: 0px;
+    padding: 115px;
+    width:100px;
+    height:1000px;
+    background-color:red;
+    font-size:36px
+}
