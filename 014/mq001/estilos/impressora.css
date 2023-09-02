@@ -1,0 +1,9 @@
+/*impressora*/
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'Esse artigo bababa';
+}
