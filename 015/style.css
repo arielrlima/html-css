@@ -7,3 +7,32 @@ body, html {
     width: 100vh;
     height: 100vh;
 }
+
+body {
+    background: rgba(0, 0, 0, 0.016) url(imagens/back-phone.jpg) no-repeat;
+}
+
+main {
+    background-color: rgba(240, 248, 255, 0.675);
+    width: 90wh;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+img#phone {display: block;}
+img#tablet {display: none;}
+img#print {display: none;}
+img#pc {display: none;}
+img#tv {display: none;}
+
+@media {
+    
+}
