@@ -27,8 +27,36 @@ img {
     margin: auto;
 }
 
-img#phone {display: block;}
-img#tablet {display: none;}
-img#print {display: none;}
-img#pc {display: none;}
-img#tv {display: none;}
+
+@media (max-width: 425px){
+    img#phone {display: block;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+    }
+    
+@media (min-width: 425px) and (max-width: 768px){
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+    }
+
+@media (min-width: 768px){
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+    }
+
+@media print{
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+    }
+    
