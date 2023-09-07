@@ -26,6 +26,19 @@ header {
 
 menu ul {
     list-style-type: none;
+    display: flex;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(81, 79, 75);
+    color: yellow;
+}
+
+menu a:hover {
+    background-color:aqua
 }
 
 h1 {
