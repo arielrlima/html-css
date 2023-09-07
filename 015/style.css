@@ -24,6 +24,23 @@ header {
     background-color: #24252a;
 }
 
+#burguer {
+    background-color: aqua;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover {
+    background-color: blueviolet;
+    color: burlywood;
+}
+
+menu {
+    display: none;
+}
+
 menu ul {
     list-style-type: none;
     display: flex;
