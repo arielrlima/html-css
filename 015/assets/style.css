@@ -80,8 +80,9 @@ header {
 main {
     background-color: rgba(240, 248, 255, 0.675);
     width: 50vw;
+    height: 500px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
 }
 
